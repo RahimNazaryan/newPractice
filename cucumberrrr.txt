@@ -1,0 +1,60 @@
+Bdd is extension of TDD in here also we write the test first likr tdd but diffrence is test 
+BDD uses human readable description of user reqyuremetnt as basis for test 
+The stories are wriiten in gherkin language.which improve communication between technical and non technical people 
+
+Given : prerequistite 
+When: Action
+And : some More Action
+Then Expected 
+
+this helps to break down the stoies in atomib actions
+keeps the format consistent 
+makes it easier to undrestand for all 
+
+1-creat a maven Project 
+2-cucumber java cucumber junit cucumber  , junit , selenium java 
+3- create a feature folder 
+4-download plugin for feature 
+
+we can do taggin with scenario and feature.
+# we can put comment 
+
+
+Runners : we create muiltiple runner class;
+Tags: we do taggin for the scenario since we have diffrent scenario in same feature file in order to run specific scenario we use taggin
+
+Plugin: 
+pretty : will print the steps inside our console from feture file
+
+html:target/cucumber-default reports ( for html report)
+rerun:target/failedTest.txt
+
+Hooks: it will helps you to start you test and end the test no matter if the test is paased or failed 
+
+Taking screen shot ( scenario class from cucumber)
+
+Failed Runner ( the purpose of failed runner is the scenario which failed to run it )
+since this is diffrent from test runner in the failed runner what we need to change something in feature option in order to test the failed we have to soecify the location of failed test 
+txt file ( @terget/failed.txt)
+
+
+paramatrization in cucumber :
+
+
+Data Driven Testing in Cucumber can be done in two ways 
+scenario outline and examples 
+datatable
+
+Hooks and backroung 
+
+hooks are implemented fpr all the features accross our project and use before and after annotaion
+backround and backround for specific feature it ia used to define 1 steo or muiltiple step which is common in feature file
+using table using pipeline table
+
+scenario only run one sice scenario outlinw will run number times where u put in table
+
+
+
+
+
+

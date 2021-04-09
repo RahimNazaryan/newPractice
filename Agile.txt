@@ -1,0 +1,117 @@
+Whats Agile (Agile model / agile methodology /agile process) ?
+
+it is an iterative and incremental approach.
+
+Incremental nature ==> means we keep adding features in the software.
+iterative ==> same kind of process we are repeating again and again.
+
+EX: suppose customer has 100 features in his application we will implement 10 features and
+deliver to customer
+
+
+Agile Principles
+
+1- customer no need to wait for long time 
+2-we can accomidate changes from customer (changes are welcome)
+3-we develope , test and release priece of software to the customer with some number 
+of feature ( there will be good between developer tester and product owner )
+
+
+Advantages and Disadvantages.
+
+A1-requirement changes are allowed in any stage of development or middile.
+A2- release will be fast
+A3- Customer no need to wait for long time
+A4-Good Communication Between Team
+A5-it is very easy model to adopt
+
+
+D1- less focus on design and documintation since we deliver software very faster.
+
+
+----------------------------============================
+Scrum?
+Scrum is a framework since agile is defined framework.
+
+Scrum is framework through which we build the software following agile process
+
+Scrum Team ( scrum includes a group of people which we called scrum team contains 5-9 people )
+
+1-product owner:
+2-scrum master
+3-dev team
+4-Qa team (tester)
+
+Product Owner : defines the feature of the product writing the requirement
+		prioritize features according to market value
+		adjust features and priority every iteration as needed 
+		Accept or rejrct work result
+
+Scrum Master : 
+		the main role is facilitating and driving the agile process
+			he has ther knowledge of the entire scrume.
+
+
+SCrum Terminology
+__________________________________
+
+User Story - a feature / module in software
+
+Epic : collection of user stories
+
+Product backlog : contains list of user stories .prepeared by product owner 
+
+Sprint/iteration : is a period time to complete the user stories decieded by the product owner and team, useually 2-4 week.
+
+Sprint planing meeting : meeting conducts with the team to define what can be deliver in the sprint and duration.
+
+Sprint Baacklog : list of commited stories by dev/qa for specific sprint ( these are the stories which are picked by dev /qa for specific sprint)
+
+Scrum Meeting : every day team have meeting every for 15 min ( Standup meeting / scrum call)	
+		what u did yesturday / will do today / any blockers 
+
+
+Sprint Retrospective meeting ( this meeting will be conducting at the end of each sprint) everybody will be conducting the meeting 
+
+
+Story Point - rough estimation of user stories will be given dev /qa in the form if fabinici searies
+0 + 1 = 1 + 1 = 2
+
+1 story point  = 1 hr / 1 day (6-8 hours ) it means depends on the company
+
+Login --->  DEV - 5 QA - 3 ( totally 8 hours )
+
+Burn Down Chart = its a graphical chart it shows that how much work has been done and reamining maintined by Scrum master.
+
+1 story -- 3 days ( 18 hours )
+
+
+
+Product owner takes all the requirement from stakeholder customer and put it the product backlog
+
+
+Roles ( product owner , srum master , team)
+Artefects ( product backlog, sprint backlog and burndown chart)
+Cermonies( sprint planning, daily srum, sprint review)
+
+
+Scrum Board ( we maintain this board day to do and updated ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

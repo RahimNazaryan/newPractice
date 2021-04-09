@@ -1,0 +1,26 @@
+TestNG
+
+what is testng?
+it is a frame work [unit testing frame work ], Junit [is not that used ] they are bioth 
+unit testing frame work.
+
+why we use testng over Junit = better reporting.
+
+reporting 
+index.html 
+emailable
+paramatierization
+pararell execution
+
+we can run
+test cases and test suit 
+
+Before test and After Test they worked as combined with @test 
+
+
+(git checkout) it will checkout from branch
+
+(git branch) it will show me in whcih branch i am .
+
+a branch is copy of master branch
+

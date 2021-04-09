@@ -1,0 +1,25 @@
+Statues codes in API Testing
+
+we do not need token for every post call.
+
+Json web Token is Authorization which contains creaton and expity time of the token and contains authorization 
+we need Token for Authorization purpose when ever we want to do any changes on the website and its used 
+in stateless webservers since we the server doesnt have meomry 
+
+
+in post call we dont send any webtokens
+in get calls we send webtokesn in headers 
+
+Querry parameters : it allows you to narrow down your reasearch 
+at the end of URI we ? question mark
+
+Path parameter it also helps us to narrow down our reaserach 
+
+/ it start with slash 
+
+
+since the token is expire every 6 or 12 hour we have to capture the token assign it an variable and put it in global varaible 
+
+
+
+pm.response ( refer to pm response object )

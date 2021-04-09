@@ -1,0 +1,18 @@
+PostMan
+
+HTTP request 
+----------------------
+Get 
+post - go to server an create new resource  
+put  - to update the record 
+Delete
+-------------------------------------
+
+Post --> request body / request payload
+put--> request body/ request payload 
+
+
+Every request will get a response in Json Format /html/text/
+
+In rest any format support 
+in soap only XML

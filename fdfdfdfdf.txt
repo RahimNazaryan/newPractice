@@ -1,0 +1,28 @@
+Dependencies : restassured depndencies and also Json path 
+
+Whats is restassured?
+Rest assured is java library used to test APIs.
+
+Whats BDD? 
+BDD is a branch of Test Driven Debelopment BDD uses humna readable discription of the software 
+Requirement.
+
+Scenario:
+
+Creating an employee
+Given a request to prepare to create an employee when
+When a post call is made to create that employee
+Then the staues code for creating an employee is 201
+And the employee is created 
+
+Given() you pass the request headers, querry and path parameter , body, cookies
+When() when marks the premises of your scenario e.g when you get/post/put
+Then()Assertion , you assert and matcher condation are written here 
+
+.prettyPrint(); method (this method also print in API)
+with assertThat only then() worked
+
+RequestSpecification = is a data type when we making a request 
+Reponse  = is also a data type when we want to take the repose 
+
+for both of this we can assign Variables  

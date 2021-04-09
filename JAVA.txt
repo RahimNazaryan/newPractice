@@ -1,0 +1,55 @@
+ARRAY ( is an object )
+
+is the collection of homogeniues data type means similer data types 
+each value has index posation inside arrays we can acces value using index value 
+
+New = key word is using to create object 
+
+Arrays super class is object class in occupy meomry in heap meomry 
+
+Advantages : it can store muiltiple values 
+	     arrays are fast as capare to permitive data types 
+
+Disadvantages: fixed in size we can not increase and decrease in runtime.
+	       wastage of meomry location
+	       we can only store same data type.
+		
+	        
+_______________________________
+
+OOPS(object oriented prgraming structure/system)
+is a programing paradigm/methodolgy its a style or way to developse or complete a task 
+
+OOPS main concepts:it has 6 pillars 
+
+class
+object and methods 
+inheritance 
+abstraction
+Polymorphism 
+encapsulation
+
+CLASS--> is the collection of objects 
+	 class is not a real world entity its just a template/blueprint/prototype
+	 class does not occupy meomry
+
+in class we can create (methods, constructors,fields,blocks,nested class)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+Whats Collection.
+Group of objects called collections. its a single entity which represent group of objects.
+why we need to go the collection frameWork.
+We can store muiltiple objects in single varaibles
+
+
+Problems With Array Concepts.
+
+in array we can only store Homogeniues Data ( same king of data).
+if we create Object array we can store Home and Hecto geniues data we can overcome this problem using object Class.
+
+1- fixed in size ( we can not change the size in runtime ) its not growable in nature 
+2- we can only store homogeniues data.
+3-underlaying data structure concept is not availble in array ( we dont have pre defined method ) and we have to come with a programming logic.
+
+
+
+Collection  FrameWork ?
+it contains muiltiple classes and interfaces which implement and extends each other.
+
+
+			ARRAY 				Collections
+
+		1- fixed in size 			1-growble in nature in run time we can change add and remove data from collections
+		2- only homogeniues data 		2- homo + hecto geniues data 
+		3- no ready made methods 		3-ready made methods availble.
+
+
+Collection Interface ( its the root)
+it contains some ready made methods which can be used by other intefaces and classes.
+
+collections is class which contains predefined methods which we can use to implement or used on collection object.
+
+
+List(I)
+Set(I)
+Queue(I)
+
+all these interfeaces sub class or child class to collection Interfaces.
+
+
+
+List(I)
+1-its child of collection interface.
+2- we use list inteface we want insertion order preserved.
+3- duplicates are allowed.
+4- classes which are implementing list inteface ( ArrayList ,  Linked List, Vector)
+
+Set(I)
+
+1- insertion order not preserved. it will not maintain the order
+2-duplicates are not allowed.
+3- classed which implement Set (Hashset, LinkedHashSet) 
+
+
+Queue(I) 
+1- prior to processing it means first in first out.
+2- classes which implement ( priorityQue)
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+		Map Interface. 
+this not child of the collection inteface.
+its key and value pair.
+
+Key= in case of key duplicate are not allowed since its unique 
+Value = but value are can be duplicated.
+classes (Hashmap,LinkedHashmap)
+
+
+_____________________________________________________________________________________________
+
+
+Collcetion Interface Methods
+
+1- add = it will add new object into collection (object)
+2-add all = this will add muiltiple in object (collection)
+3- remove = remove the object .
+4- remove all ( it will remove all the object from the collection.
+5- retain all ( collection)
+6- clear = it will clear all the objects
+7-isempty =  it will check if the collection contains any object 
+8- contains = this will take a an object as an parameter.
+9-contains all = 
+all these methods are availble in the child interfaces.
+
+__________________________________________________________________________________________________
+
+
+Lis tMethods.
+
+since in the List duplicates are allowed list uses index concept to insert and retrive objects.
+
+add(index,object)
+addAll (index,collection)
+remove(index,object)
+get(index) = it will give you an object or retrive object from list based on index
+set(index,object) it will replace an object with new object 
+
+
+___________________________________________________________________________________________________
+
+ArrayList Class.
+
+ArrayList al = new ArrayList();
+ArrayList<String> al = new <String> (); we can restricate this since we can store hectogeniues data in Collections framwwork  we can restricate using wrapper class.
+
+if we want to add muiltiple duplicate objects into single entity we use Array List 
+
+ArrayList array = new ArrayList(Array.aslist(nameof the array))
+
+when we more insetion and deletion more a lot of time will take in shifting when we have a lot of deletion in insertion we will not prefer arraylist 
+if we more number of retrieving operation we will use Array List 
+
+
+_________________________________________________________________________________________________________
+LinkedList ( is a class whhicj is implementing List and Deque Interface)
+
+when have alot of insertion and deletion we use Linked List 
+every element are stored randamly but linked which other.
+every object called in LinkedList called nod 
+
+every element contains previose and next elemnt address and data are storedin the form of nod 
+
+every nod has 3 parts which the first contains the previose elemnts info and the 3rd contains the next elemnt 
+there will be no shifting will take place 
+
+
+Limitation of LinkedList.
+1- when we more number of retriver operation it will take a lot of time to retrive data.
+
+
+when we have alot of insertion and deletion we refer link list prefer 
+when we have a lot of retiriving we will use arrayList
+
+Queu = first in first out 
+Stack = first in last out 
+
+we can Stack and que using Linked List 
+
+
+1- duplicates are allowed
+2-insertion order preserved
+3-null are allowed.
+
+
+Methods Availble inside Linked List 
+
+add(object) and (object+ index)
+addall(collection)
+remove() + object and Index
+removeAll(collection) 
+
+Get(index)
+set(index)
+
+if we want to perforeme some action on linked we can use colletions class from.
+
+
+add first() it will add the object in the first 
+addlast () the new element will add at last 
+
+remove first()
+remove first()
+
+getFirst()
+getLast()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
