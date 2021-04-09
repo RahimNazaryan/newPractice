@@ -22,5 +22,5 @@ Before test and After Test they worked as combined with @test
 
 (git branch) it will show me in whcih branch i am .
 
-a branch is copy of master branch
+a branch is copy of master branch.
 
